@@ -1,0 +1,84 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 7204695b-7485-4989-863c-16cf6e4db155
+  title: Safe and secure use of AI in research projects
+  description: A living open educational resource and workshop
+  # keywords: []
+  authors:
+    - name: Renat Shigapov
+  license:
+    content: CC-BY-4.0
+  references:
+    myst-guide: https://mystmd.org/guide
+    jupyter: https://docs.jupyter.org/en/latest
+
+  #date: 2025-12-16 # ${BUILD_DATE}
+  github: https://github.com/shigapov/safe-ai
+  edit_url: 
+  
+  plugins:
+    - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/experiment/experiment.mjs
+
+  # exports and downloads
+  exports:
+    - format: pdf
+      template: lapreprint-typst
+      output: exports/book.pdf
+      id: output-pdf
+
+  # Jupyter Notebook configuration
+  jupyter:
+    binder:
+      repo: https://github.com/executablebooks/thebe-binder-base
+
+  toc:
+
+    - file: index.md
+    - file: content/00_intro.md
+    - file: content/01_theory/010_theory.md
+      children:
+        - file: content/01_theory/011_freedom_of_research.md
+        - file: content/01_theory/012_research_ethics.md
+        - file: content/01_theory/013_research_integrity.md
+        - file: content/01_theory/014_research_governance.md
+          children:
+            - file: content/01_theory/014_1_gdpr.md
+            - file: content/01_theory/014_2_copyright.md
+            - file: content/01_theory/014_3_ai_act.md
+        - file: content/01_theory/015_ai_risks.md
+        - file: content/01_theory/016_risk_management.md
+    - file: content/02_practice/020_practice.md
+      children:
+        - file: content/02_practice/021_risk_management_in_research_projects.md
+        - file: content/02_practice/022_hands-on.md
+        - file: content/02_practice/023_ai_policies_and_checklists.md
+    - file: content/03_summary.md
+
+    # - file: content/example.ipynb
+  abbreviations:
+    JB2: Jupyter Book 2
+    CI/CD: Continuous Integration/Continuous Deployment
+    GHA: GitHub Actions
+    GH: GitHub
+    IDE: Integrated Development Environment
+    VSC: Visual Studio Code
+    CLI: commmand line interface
+
+    
+site:
+  template: book-theme
+  parts:
+    primary_sidebar_footer: |
+      [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
+  options:
+    favicon: ./content/figures/sky.jpg      # path to your favicon
+    style: ./css/custom.css
+    logo: ./content/figures/sky.jpg            # path to your logo, shown top left at site
+    folders: false
+    hide_authors: true
+
+  actions:
+    - title: Feedback
+      url: https://github.com/shigapov/safe-ai/issues
+
