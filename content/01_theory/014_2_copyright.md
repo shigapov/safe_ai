@@ -126,8 +126,7 @@ There is no clear reference to RAG as a form of TDM in the existing agreements b
 * Künstliche Intelligenz im Verlagsbereich: Häufig gestellte Fragen zu generativer KI https://www.boersenverein.de/beratung-service/recht/kuenstliche-intelligenz 
 * Brehm, E. (2022). Guidelines zum Text und Data Mining für Forschungszwecke in Deutschland. https://doi.org/10.34657/9388 
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} ❓ Quiz
 
 Is it legal to use copyrighted works to create a dataset for training an AI model?
 * Yes, always
@@ -136,8 +135,7 @@ Is it legal to use copyrighted works to create a dataset for training an AI mode
 * It is complicated
 ```
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} ❓ Quiz
 
 Is it legal to use copyrighted works to train an AI model?
 * Yes, always
@@ -146,8 +144,7 @@ Is it legal to use copyrighted works to train an AI model?
 * It is complicated
 ```
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} ❓ Quiz
 
 Is it legal to use outputs of an AI system containing copyrighted works?
 * Yes, always

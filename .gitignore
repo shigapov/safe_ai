@@ -1,6 +1,7 @@
 _build
 exports/
 _videos
+.DS_Store
 
 **.pdf
 **.mp4

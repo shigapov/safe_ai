@@ -36,7 +36,7 @@ An AI policy is:
 
 * Minimal compliance: GDPR, Copyright, EU AI Act, export control, cybersecurity, etc.
 
-## PEOPLE Checklist
+## People-Checklist
 
 Researchers & Team Members
 
@@ -53,7 +53,7 @@ Collaboration & Culture
 - [ ] Clear expectations for students, HiWis, and PhDs
 - [ ] Special care for interdisciplinary & international projects
 
-## TECHNOLOGY Checklist
+## Technology-Checklist
 
 AI Systems & Tools
 
@@ -75,7 +75,7 @@ Open-Weight Models
 - [ ] No public release without governance review
 - [ ] Vulnerability reporting plan in place
 
-## PROCESSES Checklist
+## Processes-Checklist
 
 Ethics (Is it acceptable? Is it responsible towards participants, society, and the environment?)
 

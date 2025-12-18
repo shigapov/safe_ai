@@ -65,17 +65,17 @@ https://doi.org/10.1093/oso/9780198883098.001.0001 considers five ethical princi
    6. **Societal and environmental well-being:** AI systems should benefit all human beings and environment
    7. **Accountability:** Mechanisms should be put in place to ensure responsibility and accountability for AI systems and their outcomes
 
-## Tool: ALTAI (The Assessment List for Trustworthy Artificial Intelligence )
+## Tool: ALTAI (The Assessment List for Trustworthy Artificial Intelligence)
 
-```{admonition} 🛠️ Tool
-:class: note
+ALTAI is the Assessment List for Trustworthy AI.
 
-* https://altai.insight-centre.org/Assessment 
-* https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342 
+```{exercise} ALTAI
+
+* Register at https://altai.insight-centre.org/Assessment and make an assessment of an AI system.
+* Alternatively, download the PDF-file with the assessment list https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342 and assess your AI system.
 ```
 
-```{admonition} ❓ Question
-:class: note
+```{exercise} Question and discussion
 
 What experiences have you had with Ethics Committees or Institutional Review Boards regarding the use of AI in research?
 ```
@@ -88,14 +88,12 @@ See https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/commo
 
 ## Tool: Data protection decision tree
 
-```{admonition} 🛠️ Tool
-:class: note
+```{exercise} Data protection decision tree
 
-* https://ec.europa.eu/assets/rtd/ethics-data-protection-decision-tree/index.html 
+* Apply the data protection decision tree https://ec.europa.eu/assets/rtd/ethics-data-protection-decision-tree/index.html to your use case with an AI system.
 ```
 
-```{admonition} ❓ Question
-:class: note
+```{exercise} Question and discussion
 
 What experiences have you had with ethical (self-)assessment for European grants regarding the use of AI in research?
 ```

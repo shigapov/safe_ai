@@ -3,29 +3,67 @@ version: 1
 project:
   id: 7204695b-7485-4989-863c-16cf6e4db155
   title: Safe and secure use of AI in research projects
-  description: A living open educational resource and workshop
-  # keywords: []
+  subtitle: A living open educational resource, workbook, and workshop
+  keywords:
+    - AI safety
+    - AI security
+    - research ethics
+    - research integrity
+    - research governance
+    - risk management
+    - defense in depth
   authors:
     - name: Renat Shigapov
+      orcid: 0000-0002-0331-2558
+      github: shigapov
+      linkedin: https://www.linkedin.com/in/renat-shigapov
   license:
-    content: CC-BY-4.0
+    content:
+      id: CC-BY-4.0
+      note: Unless otherwise stated.
   references:
     myst-guide: https://mystmd.org/guide
     jupyter: https://docs.jupyter.org/en/latest
 
-  #date: 2025-12-16 # ${BUILD_DATE}
-  github: https://github.com/shigapov/safe-ai
-  edit_url: 
+  date: 2025-12-16
+  github: https://github.com/shigapov/safe_ai
+  edit_url: https://github.com/shigapov/safe_ai
   
   plugins:
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/experiment/experiment.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/exercise-and-solution-pdf/exercise-admonition-pdf.mjs
 
   # exports and downloads
   exports:
     - format: pdf
       template: lapreprint-typst
-      output: exports/book.pdf
+      kind: Workbook
+      theme: red.darken(30%)
+      heading-numbering: "1.1"
+      doi: https://doi.org/10.5281/zenodo.17940942
+      output: book/safe_AI.pdf
       id: output-pdf
+      toc:
+        - file: index.md
+        - file: content/00_intro.md
+        - file: content/01_theory/010_theory.md
+          children:
+            - file: content/01_theory/011_freedom_of_research.md
+            - file: content/01_theory/012_research_ethics.md
+            - file: content/01_theory/013_research_integrity.md
+            - file: content/01_theory/014_research_governance.md
+              children:
+                - file: content/01_theory/014_1_gdpr.md
+                - file: content/01_theory/014_2_copyright.md
+                - file: content/01_theory/014_3_ai_act.md
+            - file: content/01_theory/015_ai_risks.md
+            - file: content/01_theory/016_risk_management.md
+        - file: content/02_practice/020_practice.md
+          children:
+            - file: content/02_practice/021_risk_management_in_research_projects.md
+            - file: content/02_practice/022_hands-on.md
+            - file: content/02_practice/023_ai_policies_and_checklists.md
+        - file: content/03_conclusions.md
 
   # Jupyter Notebook configuration
   jupyter:
@@ -33,7 +71,6 @@ project:
       repo: https://github.com/executablebooks/thebe-binder-base
 
   toc:
-
     - file: index.md
     - file: content/00_intro.md
     - file: content/01_theory/010_theory.md
@@ -53,7 +90,7 @@ project:
         - file: content/02_practice/021_risk_management_in_research_projects.md
         - file: content/02_practice/022_hands-on.md
         - file: content/02_practice/023_ai_policies_and_checklists.md
-    - file: content/03_summary.md
+    - file: content/03_conclusions.md
 
     # - file: content/example.ipynb
   abbreviations:
@@ -65,7 +102,7 @@ project:
     VSC: Visual Studio Code
     CLI: commmand line interface
 
-    
+
 site:
   template: book-theme
   parts:
@@ -80,5 +117,4 @@ site:
 
   actions:
     - title: Feedback
-      url: https://github.com/shigapov/safe-ai/issues
-
+      url: https://github.com/shigapov/safe_ai/issues

@@ -42,8 +42,8 @@ The AI safety report has the following points:
 * There are risk mitigation approaches for open-weight models throughout the AI lifecycle. The most robust risk mitigation strategies will aim to address potential issues at every stage from data collection to post-release measures such as vulnerability disclosure.
 
 From the other side:
-* Security by obscurity is not recommended by NIST: �System security should not depend on the secrecy of the implementation or its components.�
-* The Kerckhoffs's principle: �A system should be secure, even if everything about the system is public knowledge.�
+* Security by obscurity is not recommended by NIST: "System security should not depend on the secrecy of the implementation or its components."
+* The Kerckhoffs's principle: "A system should be secure, even if everything about the system is public knowledge."
 * "In modern computer security, a hard-fought broad-based consensus has been established: Despite the intuitive idea that hiding a system should protect it, transparency is often more beneficial for protection. The consensus on this general principle is broad, though perspectives on how to implement the principle in specific contexts can be more varied." https://doi.org/10.1609/aaai.v39i27.35022 
 * In research: Open Science + Safety + Security = As open as possible, as closed as necessary.
 
@@ -57,8 +57,7 @@ From the other side:
 * Sample policy: https://github.com/openai/gpt-oss-safeguard/blob/main/example_policies/spam/policy.txt 
 ```
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} ❓ Quiz
 
 A researcher is an open science enthusiast and shares code, data, and model weights of an in-house developed AI system openly and in accordance with FAIR principles. How can dual-use risks be prevented?
 * Open science automatically prevents misuse
@@ -102,8 +101,7 @@ Threats:
    * Access: Access of that LLM or connected agents to sensitive data
    * Send: The ability of that LLM or connected agents to initiate sending out data to the attacker
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} ❓ Quiz
 
 Which security risk is introduced when researchers use an AI system (e.g., an agentic research assistant or coding assistant such as Cursor) that has unrestricted access to local files, code repositories, and credentials?
 * Reduced model accuracy 
@@ -112,8 +110,7 @@ Which security risk is introduced when researchers use an AI system (e.g., an ag
 * Loss of explainability
 ```
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} ❓ Quiz
 
 Which of the following is a core AI security concern (as opposed to AI safety)?
 * Bias against minority groups

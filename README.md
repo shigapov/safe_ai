@@ -1,6 +1,6 @@
 # Safe and secure use of AI in research projects
 
-Open educational resource and workshop.
+Open educational resource, workbook, and workshop.
 
 ## Abstract
 
@@ -22,6 +22,13 @@ AI tools increasingly support all stages of research projects. At the same time,
 ## Slides
 
 Shigapov, R. (2025, Dezember 15). Safe and secure use of AI in research projects. Zenodo. https://doi.org/10.5281/zenodo.17940943
+
+## PDF book
+
+To export jupyter book into PDF format, run:
+```jupyter book  build --pdf```
+
+It will be saved in book/safe_ai.pdf
 
 ## License
 

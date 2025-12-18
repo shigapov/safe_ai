@@ -154,22 +154,19 @@ The “Safety and Security” chapter has ten Commitments (https://ec.europa.eu/
 
 ## Tool: EU AI Act Compliance Checker 1
 
-```{admonition} 🛠️ Tool
-:class: note
+```{exercise} EU AI Act Compliance Checker 1
 
 * https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker 
 ```
 
 ## EU AI Act Compliance Checker 2
 
-```{admonition} 🛠️ Tool
-:class: note
+```{exercise} EU AI Act Compliance Checker 2
 
 + https://ai-act-service-desk.ec.europa.eu/en/eu-ai-act-compliance-checker 
 ```
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} ❓ Quiz
 
 Can a researcher train an AI model with systemic risk and openly share it?
 * Yes

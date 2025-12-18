@@ -46,8 +46,7 @@ https://doi.org/10.48550/arXiv.2408.12622
 
 
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} ❓ Quiz
 
 Which of the following best describes risk management of AI use in research projects?
 * Avoiding AI use whenever risks are identified

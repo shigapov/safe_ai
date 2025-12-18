@@ -66,29 +66,27 @@ A lack of AI literacy may unintentionally lead to the whole spectrum of question
 
 ## Tool: Retraction Watch Database, Blog, etc.
 
-```{admonition} 🛠️ Tool
-:class: note
+```{exercise} Retraction Watch Database and Blog
 
-* https://retractionwatch.com
-* https://gitlab.com/crossref/retraction-watch-data 
-* https://retractionwatch.com/papers-and-peer-reviews-with-evidence-of-chatgpt-writing 
+* Find the posts at https://retractionwatch.com related to retractions of papers due to use of AI
+* Download the retraction watch database https://gitlab.com/crossref/retraction-watch-data and find retracted papers with "AI" in the titles
+* Read the list of papers with evidence of ChatGPT-writing https://retractionwatch.com/papers-and-peer-reviews-with-evidence-of-chatgpt-writing. Analyze and discuss the reasons for retraction.
 ```
 
 ## Tool: Academ-AI
-```{admonition} 🛠️ Tool
-:class: note
 
-* https://www.academ-ai.info 
-* Glynn A. Academ-AI: documenting the undisclosed use of generative artificial intelligence in academic publishing. arXiv; 2024. https://doi.org/10.48550/arXiv.2411.15218 
+```{exercise} Academ-AI
+
+* Read the samples of papers with suspected undeclared AI usage in the academic literature at https://www.academ-ai.info. Discuss strong and weak markers of using AI in research.
+* Read preprint https://doi.org/10.48550/arXiv.2411.15218  and discuss it with colleagues
 ```
 
 ## Tool: Research Integrity Risk Index
 
-```{admonition} 🛠️ Tool
-:class: note
+```{exercise} Research Integrity Risk Index
 
-* Meho, L. I. (2025). Gaming the Metrics: Bibliometric Anomalies in Global University Rankings and the Research Integrity Risk Index (RI²). Scientometrics, 130, 6683–6726. https://doi.org/10.1007/s11192-025-05480-2 
-* https://sites.aub.edu.lb/lmeho/ri2
+* Read preprint https://doi.org/10.1007/s11192-025-05480-2  and discuss it with colleagues
+* Analyze https://sites.aub.edu.lb/lmeho/ri2. How can it help you to select potential project partners?
 ```
 
 ## Living guidelines on the responsible use of generative AI in research for researchers
@@ -117,38 +115,34 @@ Research organisations apply these guidelines whenever possible. If needed, they
 
 ## Tool: Artificial Intelligence Disclosure (AID)
 
-```{admonition} 🛠️ Tool
-:class: note
+```{exercise} Artificial Intelligence Disclosure (AID)
 
-* https://aidframework.org
+* Test https://aidframework.org
 ```
 
 ## Tool: AI Attribution Toolkit
 
-```{admonition} 🛠️ Tool
-:class: note
+```{exercise} AI Attribution Toolkit
 
-* https://aiattribution.github.io/interpret-attribution
+* Test https://aiattribution.github.io/interpret-attribution
 ```
 
 ## Tool: GAIDeT Declaration Generator 
 
-```{admonition} 🛠️ Tool
-:class: note
+```{exercise}
 
-* https://panbibliotekar.github.io/gaidet-declaration/index.htm
-* https://doi.org/10.1080/08989621.2025.2544331
+* Test https://panbibliotekar.github.io/gaidet-declaration/index.htm
+* Read paper https://doi.org/10.1080/08989621.2025.2544331 and discuss it with colleagues
 ```
 
 ## Tool: Decision tree for responsible application of AI
-```{admonition} 🛠️ Tool
-:class: note
 
-* American Association for the Advancement of Science (AAAS). Decision Tree for the Responsible Application of Artificial Intelligence (v1.0): [Online]. (2023). https://www.aaas.org/sites/default/files/2023-08/AAAS%20Decision%20Tree.pdf 
+```{exercise}
+
+* Apply the decision tree for responsible application of AI to your AI use case: American Association for the Advancement of Science (AAAS). Decision Tree for the Responsible Application of Artificial Intelligence (v1.0): [Online]. (2023). https://www.aaas.org/sites/default/files/2023-08/AAAS%20Decision%20Tree.pdf 
 ```
 
-```{admonition} ❓ Quiz
-:class: note
+```{exercise} Quiz
 
 Who do you believe is responsible for research integrity when AI systems are used?
 * Users of AI systems
