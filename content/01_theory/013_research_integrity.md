@@ -129,7 +129,7 @@ Research organisations apply these guidelines whenever possible. If needed, they
 
 ## Tool: GAIDeT Declaration Generator 
 
-```{exercise}
+```{exercise} GAIDeT Declaration Generator 
 
 * Test https://panbibliotekar.github.io/gaidet-declaration/index.htm
 * Read paper https://doi.org/10.1080/08989621.2025.2544331 and discuss it with colleagues
@@ -137,7 +137,7 @@ Research organisations apply these guidelines whenever possible. If needed, they
 
 ## Tool: Decision tree for responsible application of AI
 
-```{exercise}
+```{exercise} Decision tree for responsible application of AI
 
 * Apply the decision tree for responsible application of AI to your AI use case: American Association for the Advancement of Science (AAAS). Decision Tree for the Responsible Application of Artificial Intelligence (v1.0): [Online]. (2023). https://www.aaas.org/sites/default/files/2023-08/AAAS%20Decision%20Tree.pdf 
 ```

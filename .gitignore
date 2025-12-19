@@ -3,7 +3,7 @@ exports/
 _videos
 .DS_Store
 
-**.pdf
+#**.pdf
 **.mp4
 **.pptx
 

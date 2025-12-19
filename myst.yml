@@ -43,27 +43,6 @@ project:
       doi: https://doi.org/10.5281/zenodo.17940942
       output: book/safe_AI.pdf
       id: output-pdf
-      toc:
-        - file: index.md
-        - file: content/00_intro.md
-        - file: content/01_theory/010_theory.md
-          children:
-            - file: content/01_theory/011_freedom_of_research.md
-            - file: content/01_theory/012_research_ethics.md
-            - file: content/01_theory/013_research_integrity.md
-            - file: content/01_theory/014_research_governance.md
-              children:
-                - file: content/01_theory/014_1_gdpr.md
-                - file: content/01_theory/014_2_copyright.md
-                - file: content/01_theory/014_3_ai_act.md
-            - file: content/01_theory/015_ai_risks.md
-            - file: content/01_theory/016_risk_management.md
-        - file: content/02_practice/020_practice.md
-          children:
-            - file: content/02_practice/021_risk_management_in_research_projects.md
-            - file: content/02_practice/022_hands-on.md
-            - file: content/02_practice/023_ai_policies_and_checklists.md
-        - file: content/03_conclusions.md
 
   # Jupyter Notebook configuration
   jupyter:
