@@ -49,7 +49,9 @@ The model parameters are not updated in RAG.
 
 ## Reproducibility and replicability of AI systems
 
-![External image](https://book.the-turing-way.org/build/reproducible-definit-6423ffea7f9a9078e298cc80f31e24d0.svg)
+``` {figure} ./figures/reproducible-definitiongrid.jpg
+:width: 100%
+```
 
 Image source: {cite:p}`the_turing_way_community_2024_13882307`.
 

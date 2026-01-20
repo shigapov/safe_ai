@@ -40,7 +40,7 @@ project:
       kind: Workbook
       theme: red.darken(30%)
       heading-numbering: "1.1"
-      doi: https://doi.org/10.5281/zenodo.17940942
+      doi: 10.5281/zenodo.17940942
       output: book/safe_AI.pdf
       id: output-pdf
 
