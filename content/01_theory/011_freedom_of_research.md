@@ -61,7 +61,7 @@ Independently of ethical approval, your own ethical self-assessment of your rese
 
 ### Research integrity
 How should we behave? Responsibility, honesty, rigor, transparency, FAIR & Open Science, following good research practices, avoiding questionable research practices & scientific misconduct.
-ACT responsibly.
+ACT responsibly and honest.
 
 ### Research governance
 What must we comply with? Laws (GDPR, copyright, EU AI Act), policies, funding rules, contracts, licenses, and agreements.

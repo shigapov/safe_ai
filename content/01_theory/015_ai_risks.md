@@ -6,8 +6,9 @@ According to https://doi.org/10.48550/arXiv.2506.18932, AI safety and AI securit
 
 ## Main documents on AI safety and AI security
 
-* The International AI Safety Report is the world’s first comprehensive review of the latest science on the capabilities and risks of general-purpose AI systems (~300 pages):
-   * https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025 
+* The International AI Safety Report is the world’s first comprehensive review of the latest science on the capabilities and risks of general-purpose AI systems:
+   * https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026 (~220 pages)
+   * https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025 (~300 pages)
    * https://internationalaisafetyreport.org/publication/first-key-update-capabilities-and-risk-implications 
    * https://internationalaisafetyreport.org/publication/second-key-update-technical-safeguards-and-risk-management 
 * OWASP AI Exchange is a practical resource on AI security and privacy (>200 pages)
